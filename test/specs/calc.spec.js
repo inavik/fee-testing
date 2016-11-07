@@ -15,7 +15,6 @@
           expect(window.calc.sum).to.be.a('function');
         });
 
-
         it('should add the numbers in the array and return six', function() {
           var result= window.calc.sum([1,2,3]);
           expect(result).to.equal(6);
@@ -30,15 +29,16 @@
           var result= window.calc.sum();
           expect(result).to.equal(result);
         });
-
-
       });
 
+      describe('factorial', function() {
+        it('should have a function called factorial', function () {
+          expect(window.calc.factorial).to.be.a('function');
+        });
 
 
 
-
-
+      })
     });
 
 
