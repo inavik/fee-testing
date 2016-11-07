@@ -36,13 +36,13 @@
           expect(window.calc.factorial).to.be.a('function');
         });
 
-
-
-      })
+        it('should factor the given numbers and return 120', function () {
+          var result= window.calc.factorial(5);
+          expect(result).to.equal(120);
+        });
     });
 
-
-
+  });  
 
 
 })();
