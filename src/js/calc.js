@@ -20,7 +20,10 @@
         numbers.forEach(function addThem(num) {
             total += num;
         });
+
+          return total;
     }
+
 
     /**
      * Returns the factorial for the given number which is defined as:
